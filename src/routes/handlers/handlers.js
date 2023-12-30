@@ -35,8 +35,8 @@ const postClient = async (req, res) => {
         const newServicio = servicios[0][0][0];
 
                await transporter.sendMail({
-                    from: '"Exclusiva Turnos" <Exclusiva.turnos@gmail.com>', // sender address
-                    to: "matiassantillan67@hotmail.com", // list of receivers
+                    from: '"Essence Turnos" <Essence.turnos@gmail.com>', // sender address
+                    to: "inay_1544@hotmail.com", // list of receivers
                     subject: "¡Nuevo turno reservado!", // Subject line
                     html: `
                     <!DOCTYPE html>
@@ -94,7 +94,7 @@ const postClient = async (req, res) => {
                     </head>
                     <body>
                         <div class="container">
-                            <h2>¡Hola Matias!</h2>
+                            <h2>¡Hola Yanina!</h2>
                             <div class="info">
                                 <p>A continuación se detallan los datos de la reserva:</p>
                                 <ul>
