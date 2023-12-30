@@ -115,7 +115,7 @@ const postClient = async (req, res) => {
         res.status(200).json(newClient);
     } catch (error) {
         console.error(error);
-        res.status(500).json({ error: 'Hubo un error en el servidor' });
+        res.status(500).json({ error: error });
     }
 };
 
